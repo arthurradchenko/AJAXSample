@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="serverScript.js"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <input type="text" placeholder="text" id="text">
+            <div class="selectors">
+                <div class="radio-group block">
+                    <input type="radio" id="radio1" name="test">
+                    <label for="radio1" value="radio1">Radio1</label>
+                    <input type="radio" id="radio2" name="test">
+                    <label for="radio2" value="radio2">Radio1</label>
+                    <input type="radio" id="radio3" name="test">
+                    <label for="radio3" value="radio3">Radio1</label>
+                </div>
+                <div class="checkbox-group block">
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1" value="checkbox1">Checkbox1</label>
+                </div>
+            </div>
+            <div class="file-input block">
+                <input type="file" id="file">
+            </div>
+            <div class="select-group block">
+                <select id="select">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                    <option value="option4">4</option>
+                </select>
+            </div>
+            <button type="submit" onclick="submit()">Submit with AJAX</button>
+        </div>
+        <div id="json-output"></div>
+    </div>
+</body>
+
+</html>

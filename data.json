@@ -1,0 +1,10 @@
+[
+    {"nodename": "test1", "nodetype": "dir", "datetime": "02.10.2018 13:34:23"
+    },
+    {"nodetype": "dir", "nodename": "test2", "datetime": "12.03.2018 23:40:23"
+    },
+    {"nodetype": "file", "nodename": "fileapp.sh", "datetime": "10.02.2019 12:43:52"
+    },
+    {"nodetype": "dir", "nodename": "mydir", "datetime": "03.12.2017 03:23:24"
+    }
+]

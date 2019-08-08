@@ -1,0 +1,34 @@
+.wrapper {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+}
+#text{
+    width: 100%;
+    font-size: 18px;
+    margin: 5px;
+}
+
+select{
+    width: 100%;
+    font-size: 18px;
+}
+.block{
+    margin: 5px;
+    flex-shrink: 1;
+}
+.selectors{
+    display: flex;
+}
+button{
+    margin: 5px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+}
